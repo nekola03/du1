@@ -67,8 +67,10 @@ print("Úspěšně jsi nakreslil hrací plochu a jdeme hrát!! Začíná hráč 
 
 #MEZIVÝPOČTY POTŘEBNÉ PRO SPRÁVNOU HRU
 numberSquare = siteX * siteY        #počet všceh tahů (hracích buněk)
-odEvenLap = numberSquare // 2       
-residue = numberSquare % 2          #pokud bude výsledkem celé číslo, residue bude nula a pokud 1, bude počet tahů lichých a provede se poslední část kódu (podmínka if)
+odEvenLap = numberSquare // 2
+print(odEvenLap)       
+residue = numberSquare % 2
+print(residue)          #pokud bude výsledkem celé číslo, residue bude nula a pokud 1, bude počet tahů lichých a provede se poslední část kódu (podmínka if)
 hideturtle()                        
 
 #SUDÝ POČET TAHŮ
