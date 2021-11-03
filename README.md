@@ -1,2 +1,4 @@
 # du1
-první úkol k předmětu "Úvod do programování"
+První úkol k předmětu Úvod do programování
+
+
