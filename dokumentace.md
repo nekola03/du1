@@ -1,5 +1,4 @@
 # du1
-První úkol k předmětu Úvod do programování
 
 VYSVĚTLENÍ FUNKČNOSTI PROGRAMU
 
@@ -20,8 +19,10 @@ VYSVĚTLENÍ FUNKČNOSTI PROGRAMU
 
     3. Určení požadované buňky pro zákres
         Pro tento účel slouží 2 funkce, přičemž 1. z nich určuje vertikální souřadnici a 2. určuje horizontální souřadnici.
+        Funkce načte hodnotu zadanou uživatelem.
         Funkce obsahují především while cyklus, který nedovolí uživateli pokračovat, pokud nezadá hodnoty buňky v platném rozsahu, který je především v rozsahu 0 - velikost (X Y) hracího pole (viz. dále).
         Pokud nezadá uživatel platné hodnoty, definované podmínky mu mohou napovědět.
+        Pomocí returnu se navrátí hodnota.
     
 2. Samotná část kódu
     1.  Vykreslení hracího pole
