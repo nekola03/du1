@@ -7,17 +7,17 @@ VYSVĚTLENÍ FUNKČNOSTI PROGRAMU
     Další 2 slouží pro načítání souřadnic pro jednotlivé křížky a kolečka uživatelem.
     účelem funkcí je zjednodušit kód a zkrátit jej na minimální délku, jelikož jsou jednotlivé funkce použity v samotném kódu několikrát.
     
-    1. Vykreslení křížku
+    1. Vykreslení křížku (hashtag_function)
         Pro vykreslení křížku byl použit FOR cyklus, kdy počátek každé části je určen v jeho středu.
         Poté jsou vykresleny jednotlivé "výběžky středu".
         Funkci jsou předány 2 parametry (souřadnice X a Y).
 
-    2. Vykreslení kolečka
+    2. Vykreslení kolečka(circle_function)
         Pro výpočet je nezbytné se přesunot do horizontálního středu buňky, kdy počátek vykreslení kružnice započne v dolní části buňky.
         stejně jako v případě křížku se do středu buňky dostaneme pomocí funkce "setpos" z knihovny turtle.
         Funkci jsou předány 2 parametry (souřadnice X a Y).
 
-    3. Určení požadované buňky pro zákres
+    3. Určení požadované buňky pro zákres(coordinates_hor; coordinates_ver)
         Pro tento účel slouží 2 funkce, přičemž 1. z nich určuje vertikální souřadnici a 2. určuje horizontální souřadnici.
         Funkce načte hodnotu zadanou uživatelem.
         Funkce obsahují především while cyklus, který nedovolí uživateli pokračovat, pokud nezadá hodnoty buňky v platném rozsahu, který je především v rozsahu 0 - velikost (X Y) hracího pole (viz. dále).
